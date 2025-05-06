@@ -3,7 +3,6 @@ import "./App.css"
 import Home from "./Routes/Home"
 import Buy from './Routes/Buy'
 import Sell from './Routes/Sell'
-import Blog from './Routes/Blog'
 import About from './Routes/About'
 import { createBrowserRouter, RouterProvider } from 'react-router'
 
@@ -20,10 +19,6 @@ function App() {
     {
       path: "/sell",
       element: <Sell/>
-    },
-    {
-      path: "/blog",
-      element: <Blog/>
     },
     {
       path: "/about",
