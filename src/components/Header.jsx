@@ -7,10 +7,10 @@ import "./Header.css";
 const Header = () => {
   return (
     <header className="header">
-      <Link to="/">
+      <Link to="/" className="noline">
       <div className="logo-container">
         <div className="logo">
-          <img src="/placeholder.svg" alt="Logo" className="logo-image" />
+          <img src="src/assets/logo.jpeg" alt="Logo" className="logo-image" />
         </div>
         <div className="site-name">
           <span className="auction-text">Bid</span>
@@ -20,11 +20,11 @@ const Header = () => {
       </Link>
 
       <nav className="navigation">
-        <Link to="/">Home</Link>
-        <Link to="/buy">Buy</Link>
-        <Link to="/sell">Sell</Link>
-        <Link to="/blog">Blog</Link>
-        <Link to="/about">About</Link>
+        <Link to="/" className="noline"><li>Home</li></Link>
+        <Link to="/buy" className="noline"><li>Buy</li></Link>
+        <Link to="/sell" className="noline"><li>Sell</li></Link>
+        <Link to="/blog" className="noline"><li>Blog</li></Link>
+        <Link to="/about" className="noline"><li>About</li></Link>
 
         <button className="login-button">Log In</button>
       </nav>
