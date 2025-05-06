@@ -6,46 +6,65 @@
 }
 
 .title {
+  margin: 0 600px; 
+  padding: 20px;
   margin-top: 100px;
-    text-align: center;
-    font-size: 2.5rem;
-    color: #333;
+  text-align: center;
+  font-size: 2.8rem;
+  color: #333333f3;
+  background-color: #f9f9f97a;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+}
+.title:hover {
+  background-color: #f9f9f9d9;
 }
 
 .title:after {
   content: "";
   display: block;
-  width: 60px;
-  height: 3px;
+  width: 80px;
+  height: 4px;
   background-color: #4a90e2;
-  margin: 0.5rem auto 0;
+  margin: 0.8rem auto 0;
 }
 
-.Buy{
-  background: linear-gradient(to right, #4caf4fbf, transparent);
+.Buy {
+  background: linear-gradient(to right, #4caf4fbf, #e8f5e9);
   font-family: "Special Gothic Condensed One", sans-serif;
-  font-size: 24px;
+  font-size: 26px;
   font-weight: bold;
-  padding: 20px 40px 40px; 
+  padding: 20px 100px; 
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
 
-.Buy:hover{
-  background: linear-gradient(to right, #4caf4f, transparent);
-  color: white;
+.Buy:hover {
+  background: linear-gradient(to right, #4caf4f, #a5d6a7);
+  color: #fff;
   cursor: pointer;
+  transform: scale(1.05);
 }
 
 .Sell {
   text-align: right;
-  background: linear-gradient(to left, #418dd4bf, transparent);
+  background: linear-gradient(to left, #418dd4bf, #e3f2fd);
   font-family: "Special Gothic Condensed One", sans-serif;
-  font-size: 24px;
+  font-size: 26px;
   font-weight: bold;
-  padding: 20px 40px 40px; 
+  padding: 20px 100px; 
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
 
-.Sell:hover{
-  background: linear-gradient(to left, #418dd4, transparent);
-  color: white;
+.Sell:hover {
+  background: linear-gradient(to left, #418dd4, #90caf9);
+  color: #fff;
   cursor: pointer;
+  transform: scale(1.05);
 }

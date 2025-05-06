@@ -1,0 +1,39 @@
+.vision-mission {
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+.vision-mission h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.vision, .mission {
+  margin: 2rem 0;
+  text-align: left;
+}
+
+.vision h3, .mission h3 {
+text-align: center;
+  font-size: 1.8rem;
+  color: #4a90e2;
+  margin-bottom: 1rem;
+}
+
+.vision p, .mission p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.vision p:last-child, .mission p:last-child {
+  margin-bottom: 0;
+}

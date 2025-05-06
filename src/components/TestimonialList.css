@@ -21,28 +21,25 @@
   margin: 0.5rem auto 0;
 }
 
-/* Update the testimonials container to enable horizontal scrolling */
 .testimonials-container {
   display: flex;
-  flex-wrap: nowrap; /* Change from wrap to nowrap */
-  overflow-x: auto; /* Enable horizontal scrolling */
+  flex-wrap: nowrap;
+  overflow-x: auto;
   gap: 2rem;
-  padding: 1rem 0.5rem 2rem 0.5rem; /* Add padding for better scrolling experience */
+  padding: 1rem 0.5rem 2rem 0.5rem; 
   scroll-padding: 1rem;
-  scroll-behavior: smooth; /* For smooth scrolling */
-  -webkit-overflow-scrolling: touch; /* For better touch scrolling */
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch; 
   max-width: 100%;
   margin: 0 auto;
 }
 
-/* Make each testimonial card have a fixed width */
 .testimonial {
-  flex: 0 0 auto; /* Don't grow or shrink, stay fixed width */
-  width: 350px; /* Fixed width for each testimonial */
-  margin: 1rem 0; /* Adjust vertical margin */
+  flex: 0 0 auto; 
+  width: 350px; 
+  margin: 1rem 0;  
 }
 
-/* Add styling for scrollbar */
 .testimonials-container::-webkit-scrollbar {
   height: 8px;
 }
@@ -66,7 +63,6 @@
     font-size: 1.5rem;
   }
 
-  /* Adjust card width for smaller screens */
   .testimonial {
     width: 280px;
   }

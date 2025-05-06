@@ -1,7 +1,6 @@
 import "./Testimonial.css"
 
 const Testimonial = ({ image, name, role, text, rating }) => {
-  // Generate stars based on rating
   const renderStars = () => {
     const stars = []
     const fullStars = Math.floor(rating)
