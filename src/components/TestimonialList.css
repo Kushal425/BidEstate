@@ -1,0 +1,74 @@
+.testimonial-list {
+    position: relative;
+    padding: 3rem 1rem;
+    background-color: #f9f9f9;
+  }
+  
+  .testimonial-list-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  
+  .testimonial-list-title:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #4a90e2;
+    margin: 0.5rem auto 0;
+  }
+  
+  /* Update the testimonials container to enable horizontal scrolling */
+  .testimonials-container {
+    display: flex;
+    flex-wrap: nowrap; /* Change from wrap to nowrap */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    gap: 2rem;
+    padding: 1rem 0.5rem 2rem 0.5rem; /* Add padding for better scrolling experience */
+    scroll-padding: 1rem;
+    scroll-behavior: smooth; /* For smooth scrolling */
+    -webkit-overflow-scrolling: touch; /* For better touch scrolling */
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  /* Make each testimonial card have a fixed width */
+  .testimonial {
+    flex: 0 0 auto; /* Don't grow or shrink, stay fixed width */
+    width: 350px; /* Fixed width for each testimonial */
+    margin: 1rem 0; /* Adjust vertical margin */
+  }
+  
+  /* Add styling for scrollbar */
+  .testimonials-container::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .testimonials-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  .testimonials-container::-webkit-scrollbar-thumb {
+    background: #c0c0c0;
+    border-radius: 10px;
+  }
+  
+  .testimonials-container::-webkit-scrollbar-thumb:hover {
+    background: #a0a0a0;
+  }
+  
+  @media (max-width: 768px) {
+    .testimonial-list-title {
+      font-size: 1.5rem;
+    }
+  
+    /* Adjust card width for smaller screens */
+    .testimonial {
+      width: 280px;
+    }
+  }
+  

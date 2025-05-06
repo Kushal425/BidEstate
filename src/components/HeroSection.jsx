@@ -15,7 +15,7 @@ return (
         }
         <div className="hero-content" >
             <h1>{props.title}</h1>
-            <h2>Invest with Us</h2>
+            <h2>{props.subtitle}</h2>
             <p>{props.description}</p>
         </div>
     </div>
