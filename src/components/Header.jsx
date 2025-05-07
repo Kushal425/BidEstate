@@ -2,9 +2,11 @@
 
 import React, { useEffect } from "react";
 import { Link } from "react-router";
+import { useAuth0 } from "@auth0/auth0-react";
 import "./Header.css";
 
 const Header = () => {
+  const { user, loginWithRedirect, isAuthenticated, logout } = useAuth0();
   return (
     <header className="header">
       <Link to="/" className="noline">
@@ -25,7 +27,13 @@ const Header = () => {
         <Link to="/sell" className="noline"><li>Sell</li></Link>
         <Link to="/about" className="noline"><li>About</li></Link>
 
-        <button className="login-button">Log In</button>
+        {!isAuthenticated?<button className="login-button" onClick={() => loginWithRedirect()}>Log In</button>:<>
+        <div>
+          <img className="userProfile" src={user.picture} alt={user.name} />
+          <h2 className="userInfo">{user.name}</h2>
+        </div>
+        <button className="logout-button" onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>Log Out</button>
+        </>}
       </nav>
     </header>
   );
