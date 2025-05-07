@@ -9,7 +9,7 @@ function About() {
   return (
     <>
       <Header />
-      <HeroSection video="src/assets/About.mp4" subtitle="FOR OVER DECADE" description="THE NATION'S LARGEST ONLINE AUCTION MARKETPLACE" />
+      <HeroSection video="assets/About.mp4" subtitle="FOR OVER DECADE" description="THE NATION'S LARGEST ONLINE AUCTION MARKETPLACE" />
       <VisionMission />
       <EmployeeCarousel />
       <Footer />

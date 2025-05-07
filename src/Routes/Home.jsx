@@ -9,7 +9,7 @@ function Home() {
   return (
     <>  
         <Header/>
-        <HeroSection video="src/assets/Home.mp4" title="Buy/Sell at BidEstate" subtitle="Invest With Us" description="BidEstate is a leading online real estate marketplace, connecting buyers and sellers with exclusive property listings." />
+        <HeroSection video="assets/Home.mp4" title="Buy/Sell at BidEstate" subtitle="Invest With Us" description="BidEstate is a leading online real estate marketplace, connecting buyers and sellers with exclusive property listings." />
         <Products/>
         <TestimonialList/>
         <Footer/>

@@ -18,7 +18,7 @@ const Testimonial = ({ image, name, role, text, rating }) => {
       stars.push(
         <span key="half-star" className="star half">
           ★
-        </span>,
+        </span>
       )
     }
 

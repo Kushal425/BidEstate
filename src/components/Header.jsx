@@ -12,7 +12,7 @@ const Header = () => {
       <Link to="/" className="noline">
       <div className="logo-container">
         <div className="logo">
-          <img src="src/assets/logo.jpeg" alt="Logo" className="logo-image" />
+          <img src="assets/logo.jpeg" alt="Logo" className="logo-image" />
         </div>
         <div className="site-name">
           <span className="auction-text">Bid</span>
