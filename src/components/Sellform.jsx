@@ -1,5 +1,5 @@
 import { useState } from "react"
-import "./SellForm.css"
+import "./Sellform.css"
 
 const SellForm = () => {
   const [formData, setFormData] = useState({
