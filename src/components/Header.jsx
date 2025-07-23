@@ -26,6 +26,7 @@ const Header = () => {
         <Link to="/buy" className="noline"><li>Buy</li></Link>
         <Link to="/sell" className="noline"><li>Sell</li></Link>
         <Link to="/about" className="noline"><li>About</li></Link>
+        <Link to="/blog" className="noline"><li>Blog</li></Link>
 
         {!isAuthenticated?<button className="login-button" onClick={() => loginWithRedirect()}>Log In</button>:<>
         <div>

@@ -5,6 +5,7 @@ import Buy from './Routes/Buy'
 import Sell from './Routes/Sell'
 import About from './Routes/About'
 import { createBrowserRouter, RouterProvider } from 'react-router'
+import Blog from './Routes/Blog'
 
 function App() {
   const route = createBrowserRouter([
@@ -23,6 +24,10 @@ function App() {
     {
       path: "/about",
       element: <About/>
+    },
+    {
+      path: "/blog",
+      element: <Blog/>
     }
   ])
   return (
