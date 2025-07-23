@@ -30,7 +30,7 @@ Don't get caught up in bidding wars, ignore inspection opportunities, or fail to
       date: "2024-01-15",
       readTime: "8 min read",
       category: "Bidding Strategy",
-      image: "/placeholder.svg?height=300&width=600&text=Real+Estate+Auction+Guide",
+      image: "assets/guide.jpeg"
     },
     {
       id: 2,
@@ -68,7 +68,7 @@ Industry experts predict continued growth in auction popularity, driven by techn
       date: "2024-01-10",
       readTime: "6 min read",
       category: "Market Analysis",
-      image: "/placeholder.svg?height=300&width=600&text=Market+Trends+Analysis",
+      image: "assets/trend.jpeg",
     },
     {
       id: 3,
@@ -134,7 +134,7 @@ Different states have varying auction regulations. Familiarize yourself with loc
       date: "2024-01-05",
       readTime: "10 min read",
       category: "Legal Guide",
-      image: "/placeholder.svg?height=300&width=600&text=Legal+Considerations",
+      image: "assets/legal.jpeg",
     },
     {
       id: 4,
@@ -206,7 +206,7 @@ The integration of these technologies is making real estate auctions more effici
       date: "2023-12-28",
       readTime: "7 min read",
       category: "Technology",
-      image: "/placeholder.svg?height=300&width=600&text=Technology+Revolution",
+      image: "assets/tech.jpeg",
     },
   ]
 
@@ -261,7 +261,7 @@ The integration of these technologies is making real estate auctions more effici
         </div>
       </div>
 
-      <div className="main-content">
+      <div className="main-content-blog">
         <div className="articles-container">
           {blogPosts.map((post) => (
             <article key={post.id} className="article-card">
